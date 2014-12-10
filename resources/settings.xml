@@ -53,7 +53,7 @@
     	<setting id="base_tpb" type="text" label="Domain" default="http://thepiratebay.org" />
     	
 		<setting label="Kickass Torrents" type="lsep"/>    		
-    	<setting id="display_kat" label="Display" type="bool" default="true" />
+    	<setting id="display_kickass" label="Display" type="bool" default="true" />
     	<setting id="kat_label" type="text" label="Label" default="Kickass Torrents" />
  		<setting id="kat_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />      	
     	<setting id="base_kickass" type="text" label="Domain" default="http://kickass.to"/>
