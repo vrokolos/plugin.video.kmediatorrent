@@ -32,6 +32,9 @@ Screenshots
 
 Download
 --------
+[Download link: KODItorrent-2.2.2](https://mega.co.nz/#!3cgWzL5a!oBFca8eJmhgfnUbYrqZTSn7WCqEbwTB2dm7mpGauFGg)
+ [see releases for info](https://github.com/jmarth/KODItorrent/releases)
+
 [Download link: KODItorrent-2.2.1](https://mega.co.nz/#!vNBygZ7S!tT8VpigS_DKIJBdNRkimdkXvDJkeyW-UKpmNxePNb1U)
  [see releases for info](https://github.com/jmarth/KODItorrent/releases)
 
