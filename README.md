@@ -32,6 +32,9 @@ Screenshots
 
 Download
 --------
+[Download link: KMediaTorrent-2.3.3](https://mega.co.nz/#!Kc40yD5S!ppZLFbeL5fAaQTqc8yR1c2JnEsLz3wcbjG-3Lot2VVE)
+ [Android fix)
+
 [Download link: KMediaTorrent-2.3.2](https://mega.co.nz/#!6IB0VKQA!QnxdG9QuNPb8BfoSLAyF44Y4ClYgNPPva-0rzpXb4B8)
  [see releases for info](https://github.com/jmarth/KMediaTorrent/releases)
 
