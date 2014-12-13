@@ -1,37 +1,40 @@
-KODItorrent
+KMediaTorrent (formerly known as KODITorrent)
 ===========
 
 What it is
 ----------
-KODItorrent is a fork of XBMCtorrent. Koditorrent allows you to stream bittorrent magnet links right from XBMC/KODI, without having to wait for the whole file to download, thanks to sequential download (see FAQ).
+KMediaTorrent is a fork of XBMCtorrent. KMediaTorrent allows you to stream bittorrent magnet links right from XBMC/KODI, without having to wait for the whole file to download, thanks to sequential download (see FAQ).
 
-XBMCtorrent was created by [steeve](https://github.com/steeve) but is no longer receiving updates. I created KODItorrent to add some improvements to its original design. Check out [Pulsar](http://forum.kodi.tv/showthread.php?tid=200957) to see steeve's newest project.
+XBMCtorrent was created by [steeve](https://github.com/steeve) but is no longer receiving updates. I created KMediaTorrent to add some improvements to its original design. Check out [Pulsar](http://forum.kodi.tv/showthread.php?tid=200957) to see steeve's newest project.
 
 How is it different from XBMCtorrent?
 -------------------------------------
-KODItorrent has a more simple design and comes with more options. 
+KMediaTorrent has a more simple design and comes with more options. 
 Some of the extra options include being able to download the whole file instead of streaming it, setting your own buffer size, hide scrapers, and change lables and pictures. KODItorrennt also uses a fork of qtfaststart so you will no longer get the playback issues like you see in XBMCtorrent. MAKE SURE TO CHECK OUT THE NEW SETTINGS!
 
 Screenshots
 -----------
 
-![KODItorrent Screenshot1]
+![KMediaTorrent Screenshot1]
 (http://i.imgur.com/drapd4z.png)
-![KODItorrent Screenshot2]
+![KMediaTorrent Screenshot2]
 (http://i.imgur.com/pTPqomt.png)
-![KODItorrent Screenshot3]
+![KMediaTorrent Screenshot3]
 (http://i.imgur.com/D40lFzT.png)
-![KODItorrent Screenshot4]
+![KMediaTorrent Screenshot4]
 (http://i.imgur.com/V7wFGfA.png)
-![KODItorrent Screenshot5]
+![KMediaTorrent Screenshot5]
 (http://i.imgur.com/vOBsanL.png)
-![KODItorrent Screenshot6]
+![KMediaTorrent Screenshot6]
 (http://i.imgur.com/eDpfrNk.png)
-![KODItorrent Screenshot7]
+![KMediaTorrent Screenshot7]
 (http://i.imgur.com/HfywRUf.png)
 
 Download
 --------
+[Download link: KMediaTorrent-2.3.2](https://mega.co.nz/#!6IB0VKQA!QnxdG9QuNPb8BfoSLAyF44Y4ClYgNPPva-0rzpXb4B8)
+ [see releases for info](https://github.com/jmarth/KMediaTorrent/releases)
+
 [Download link: KODItorrent-2.2.2](https://mega.co.nz/#!3cgWzL5a!oBFca8eJmhgfnUbYrqZTSn7WCqEbwTB2dm7mpGauFGg)
  [see releases for info](https://github.com/jmarth/KODItorrent/releases)
 
@@ -74,8 +77,8 @@ Supported Platforms
 
 How it works
 ------------
-KODItorrent is actually two parts:
-* _KODItorrent_: the addon written in Python.
+KMediaTorrent is actually two parts:
+* _KMediaTorrent_: the addon written in Python.
 * `torrent2http`: a custom bittorrent client written in Go and leveraging libtorrent-rasterbar, that turns magnet links into HTTP endpoints, using sequential download.
 
 If you feel adventurous, you can find the `torrent2http` and `libtorrent-go` sources at:
@@ -100,13 +103,13 @@ Yes, although now if you try to seek to a part you haven't downloaded yet, XBMC 
 Of course! 720p and 1080p work fine, provided you have enough bandwidth, and there are enough people on the torrent.
 
 #### Doesn't sequential download on bittorrent is bad?
-Generally, yes. However, KODItorrent respects the same [requirements "defined" by uTorrent 3](http://www.utorrent.com/help/faq/ut3#faq2[/url]). Also, KODItorrent tries to make it up to the swarm by seeding while you watch the movie.
+Generally, yes. However, KMediaTorrent respects the same [requirements "defined" by uTorrent 3](http://www.utorrent.com/help/faq/ut3#faq2[/url]). Also, KMediaTorrent tries to make it up to the swarm by seeding while you watch the movie.
 
 #### What about seeding?
-KODItorrent will seed the file you're watching until it's finished playing. For instance, if the download of a 2 hours long movie is finished in 10 minutes, you'll continue seeding it until you finish watching the movie. This is by design, to make up for the fact that we are using sequential download.
+KMediaTorrent will seed the file you're watching until it's finished playing. For instance, if the download of a 2 hours long movie is finished in 10 minutes, you'll continue seeding it until you finish watching the movie. This is by design, to make up for the fact that we are using sequential download.
 
 #### Does it downloads the whole file? Do I need the space? Is it ever deleted?
-Yes and yes. KODItorrent will pre-allocate the whole file before download. So if you want to watch a 4GB video, you'll need the 4GB. The file is deleted once you stop watching it.
+Yes and yes. KMediaTorrent will pre-allocate the whole file before download. So if you want to watch a 4GB video, you'll need the 4GB. The file is deleted once you stop watching it.
 
 #### Can I keep the file after playback?
 Yes, just enable this option in the addon settings.
