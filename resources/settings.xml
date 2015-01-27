@@ -95,7 +95,7 @@
       	<setting id="display_cpb" label="Display" type="bool" default="false" /> 
       	<setting id="cpb_label" type="text" label="Label" default="CPasBien - Torrent Français [FR]" />	
       	<setting id="cpb_picture" type="text" label="Picture link" default="" />	
-      	<setting id="base_cpb" type="text" label="Domain" default="http://cpasbien.pe" />
+      	<setting id="base_cpb" type="text" label="Domain" default="http://cpasbien.pw" />
     </category>
 	<category label="30140">
 		<setting id="subtitles" type="bool" label="30143" default="false"/>
