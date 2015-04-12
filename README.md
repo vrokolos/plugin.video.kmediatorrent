@@ -32,43 +32,8 @@ Screenshots
 
 Download
 --------
-[Download link: KMediaTorrent-2.3.3](https://mega.co.nz/#!Kc40yD5S!ppZLFbeL5fAaQTqc8yR1c2JnEsLz3wcbjG-3Lot2VVE)
- (Android fix)
-
-[Download link: KMediaTorrent-2.3.2](https://mega.co.nz/#!6IB0VKQA!QnxdG9QuNPb8BfoSLAyF44Y4ClYgNPPva-0rzpXb4B8)
- [see releases for info](https://github.com/jmarth/KMediaTorrent/releases)
-
-[Download link: KODItorrent-2.2.2](https://mega.co.nz/#!3cgWzL5a!oBFca8eJmhgfnUbYrqZTSn7WCqEbwTB2dm7mpGauFGg)
- [see releases for info](https://github.com/jmarth/KODItorrent/releases)
-
-[Download link: KODItorrent-2.2.1](https://mega.co.nz/#!vNBygZ7S!tT8VpigS_DKIJBdNRkimdkXvDJkeyW-UKpmNxePNb1U)
- [see releases for info](https://github.com/jmarth/KODItorrent/releases)
-
-[Download link: KODItorrent-2.2.0](https://mega.co.nz/#!DY5CGaxQ!UJ0DK2AIGTY_Mn1i66Erv678TwNgw-OnfM68Y2gbEvQ)
- [see releases for info](https://github.com/jmarth/KODItorrent/releases)
-
-[Download link: KODItorrent-2.1.0](https://mega.co.nz/#!ndJiWBLB!8SerilV3Ui06aVgUUqHauWsVJz3G2Wu21JyxlmhnQ7w)
- [see releases for info](https://github.com/jmarth/KODItorrent/releases)
-
-[Download link: KODItorrent-2.0.0](https://mega.co.nz/#!TA5gjIpS!K3iPBbugGp2KiI8iNJkyOdf09IoSv9BABZUyp8iHbHY)
- [see releases for info](https://github.com/jmarth/KODItorrent/releases)
-
-[Download link: KODItorrent-1.1.2]
-(https://mega.co.nz/#!HUA0UTqR!PevztClIYu5mhw0K135MQPRW3hMxelbl07x45lRPtxg)
-
-[Download link: KODItorrent-1.1.1 (Fixed Failing TV Shows)]
-(https://mega.co.nz/#!rApiAAAB!SkYNiDQWH8aEWDZkhacUw_H0eNSVNxSQ_XPquED-3T0)
-
-[Download link: KODItorrent-1.1.0 (Kodi support)]
-(https://mega.co.nz/#!3FoShTZS!edGMntaazvVozWudGxYOvoeqqJ-fY7gMNiOHCEFIhNs)
-
-[Download link: KODItorrent-1.0.3 (Doctor Who fix)](https://mega.co.nz/#!TQ5GyKQZ!J38X45RUOgvgjw4QXWdX1x3VU0qy0hk4d4BRSAZaquA)
-
-[Download link: KODItorrent-1.0.2](https://mega.co.nz/#!SVA3SZIS!q1-XJbMEPO4ieykm4um73Mh3dZ6Xc4xnwsBQ-_NEfHs)
-
-[Download link: KODItorrent-1.0.1](https://mega.co.nz/#!nZA3lRBQ!LhUoqYvofjUvlGIrdkm3Bt41f-0yx3hB7y96nJg0D-k)
-
-[Download link: KODItorrent-1.0.0](https://mega.co.nz/#!rVxgAJiC!G94zLiwq3s4u5SCRuTMLcK4jshnoKtGzS8n268uLRjk)
+[Download link: KMediaTorrent-2.3.5](https://mega.co.nz/#!DIQBADIK!oOHXxiYSnWWHT6MWS-obuctYNmdUTjpdOyiImPFiPvs)
+ [see releases for info and other versions](https://github.com/jmarth/KMediaTorrent/releases)
 
 Supported Platforms
 -------------------

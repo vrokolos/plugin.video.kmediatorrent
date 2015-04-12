@@ -16,17 +16,17 @@
         <setting id="max_upload_rate" label="Max Upload Rate (kB/s)" type="number" default="" />
         <setting id="min_download_size" label="Buffer Size (Mb/S)" type="number" default="20" />
         <setting id="encryption" label="Encryption" type="enum" values="Forced|Enabled|Disabled" default="1" />
+
+        <setting label="Library Integration" type="lsep"/>
+        <setting id="library_tv_path" type="folder" label="TV Shows Path" source="auto" option="writeable"/>
+        <setting id="library_movies_path" type="folder" label="Movies Path" source="auto" option="writeable"/>
     </category>
     <category label="Advanced">
         <setting label="Language" type="lsep"/>
         <setting id="pref_language" type="labelenum" label="Preferred Metadata Language" values="system|aa|ab|af|am|ar|as|ay|az|ba|be|bg|bh|bi|bn|bo|br|ca|co|cs|cy|da|de|dz|el|en|eo|es|et|eu|fa|fi|fj|fo|fr|fy|ga|gd|gl|gn|gu|ha|hi|hr|hu|hy|ia|ie|ik|in|is|it|iw|ja|ji|jw|ka|kk|kl|km|kn|ko|ks|ku|ky|la|ln|lo|lt|lv|mg|mi|mk|ml|mn|mo|mr|ms|mt|my|na|ne|nl|no|oc|om|or|pa|pl|ps|pt|qu|rm|rn|ro|ru|rw|sa|sd|sg|sh|si|sk|sl|sm|sn|so|sq|sr|ss|st|su|sv|sw|ta|te|tg|th|ti|tk|tl|tn|to|tr|ts|tt|tw|uk|ur|uz|vi|vo|wo|xh|yo|zh|zu" default="system" />
 
-        <setting label="XBMC Library Integration" type="lsep"/>
-        <setting type="action" label="Install" action="RunPlugin(plugin://plugin.video.stream/library/install)" />
-        <setting type="action" label="Uninstall" action="RunPlugin(plugin://plugin.video.stream/library/uninstall)" />
-
         <setting label="Maintenance" type="lsep"/>
-        <setting type="action" label="Clear cache" action="RunPlugin(plugin://plugin.video.stream/cmd/clear_cache)" />
+        <setting type="action" label="Clear cache" action="RunPlugin(plugin://plugin.video.kmediatorrent/cmd/clear_cache)" />
 
         <setting label="Google Analytics" type="lsep"/>
         <setting id="ga_disable" type="bool" label="Disable (except for index)" default="true" />
@@ -35,6 +35,7 @@
         <setting id="android_app_id" type="text" label="Custom Android Application ID" default="org.xbmc.xbmc" />
     </category>
     <category label="Scrapers"> 
+
     	<setting label="BitSnoop - Search Engine" type="lsep"/>    		
     	<setting id="display_bitsnoop" label="Display" type="bool" default="true" />
     	<setting id="bitsnoop_label" type="text" label="Label" default="BitSnoop Search" />
@@ -57,7 +58,7 @@
     	<setting id="display_eztv" label="Display" type="bool" default="true" />
     	<setting id="eztv_label" type="text" label="Label" default="TV Shows" />
     	<setting id="eztv_picture" type="text" label="Picture link" default="http://i.imgur.com/FDwFjse.png" />
-    	<setting id="base_eztv" type="text" label="Domain" default="http://eztv-proxy.net" />
+    	<setting id="base_eztv" type="text" label="Domain" default="https://eztv.ch" />
     	
  		<setting label="Kickass Torrents" type="lsep"/>    		
     	<setting id="display_kickass" label="Display" type="bool" default="true" />
@@ -81,7 +82,7 @@
     	<setting id="display_yify" label="Display" type="bool" default="true" />
     	<setting id="yify_label" type="text" label="Label" default="Movies" />
     	<setting id="yify_picture" type="text" label="Picture link" default="http://i.imgur.com/PrwiRH8.png" />
-    	<setting id="base_yify" type="text" label="Domain" default="http://yts.re" />
+    	<setting id="base_yify" type="text" label="Domain" default="https://yts.to" />
     
     	<setting label="Zelka.org - Search Engine" type="lsep"/>
       	<setting id="display_zelka" label="Display" type="bool" default="true" /> 
