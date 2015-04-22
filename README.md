@@ -32,7 +32,7 @@ Screenshots
 
 Download
 --------
-[Download link: KMediaTorrent-2.3.6](https://mega.co.nz/#!SAxRnAKA!-IUvPKdYEW6jK0pE5hOMty8kcxIKriCfEfLTg5kcGAA)
+[Download link: KMediaTorrent-2.3.6](https://mega.co.nz/#!eEowHZQB!nXB1ck60L8U43a8Mbi8rUPXPd-5IYu34A4hNMi8rlSA)
  [see releases for info and other versions](https://github.com/jmarth/KMediaTorrent/releases)
 
 Supported Platforms
